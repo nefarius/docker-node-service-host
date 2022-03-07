@@ -1,10 +1,14 @@
 # docker-node-service-host
 
-Provides a convenience Docker image to run Node services under Supervisord.
+Provides a convenience Docker image to run [Node](https://nodejs.org/en/) services under [Supervisord](http://supervisord.org/).
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/containinger/docker-node-service-host)](https://hub.docker.com/r/containinger/docker-node-service-host) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/containinger/docker-node-service-host)
 
 ## How to use
 
 Base your image on this one to get an Alpine Linux container with latest Node.js and Supervisord pre-installed.
+
+You can grab it directly from Docker hub via `docker pull containinger/docker-node-service-host`.
 
 Copy a service configuration file for your service (like the example below) into `/etc/supervisor/conf.d/`:
 

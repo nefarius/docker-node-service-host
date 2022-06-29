@@ -1,4 +1,6 @@
-FROM node:current-alpine 
+ARG NODE_VERSION=current
+
+FROM node:${NODE_VERSION}-alpine 
 
 COPY supervisord.conf /etc/supervisord.conf
 COPY entrypoint.sh /entrypoint.sh

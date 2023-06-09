@@ -1,3 +1,5 @@
+<img src="assets/NSS-128x128.png" align="right" />
+
 # docker-node-service-host
 
 Provides a convenience Docker image to run [Node](https://nodejs.org/en/) services under [Supervisord](http://supervisord.org/).

@@ -4,7 +4,7 @@
 
 Provides a convenience Docker image to run [Node](https://nodejs.org/en/) services under [Supervisord](http://supervisord.org/).
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/containinger/docker-node-service-host)](https://hub.docker.com/r/containinger/docker-node-service-host) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/containinger/docker-node-service-host)
+[![Docker Image CI](https://github.com/nefarius/docker-node-service-host/actions/workflows/docker-image.yml/badge.svg)](https://github.com/nefarius/docker-node-service-host/actions/workflows/docker-image.yml) [![Docker Pulls](https://img.shields.io/docker/pulls/containinger/docker-node-service-host)](https://hub.docker.com/r/containinger/docker-node-service-host) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/containinger/docker-node-service-host)
 
 ## How to use
 

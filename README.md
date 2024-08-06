@@ -31,13 +31,15 @@ Optionally copy one or more script files that should run on container startup to
 
 All base images are based on Alpine Linux but you can influence the Node version that will be used with the `NODE_VERSION` build argument.
 
-### Use latest Node
+### Examples
+
+#### Use latest Node
 
 ```bash
 docker build -t containinger/docker-node-service-host:latest --pull --build-arg NODE_VERSION=current .
 ```
 
-### Use Node v14
+#### Use Node v14
 
 ```bash
 docker build -t containinger/docker-node-service-host:14 --pull --build-arg NODE_VERSION=14 .
